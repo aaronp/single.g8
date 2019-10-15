@@ -1,15 +1,9 @@
-A [Giter8][g8] template for ...!
+A [Giter8](http://www.foundweekends.org/giter8/index.html) template for a single project with typical plugins, publish options, etc
 
-Template license
-----------------
+## Usage
 
-[g8]: http://www.foundweekends.org/giter8/
+Run
 
-# Notes
-
-Following along w/ [this video](https://www.youtube.com/watch?v=NiLwBrgwe8M)
-
-Ran
-'''
-sbt new foundweekends/giter8.g8
-'''
+```bash
+sbt new aaronp/single.g8
+```
