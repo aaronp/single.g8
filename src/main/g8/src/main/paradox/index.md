@@ -10,7 +10,6 @@ $name$
 @@@ index
 
 
-* [About](about.md)
 * [Usage](usage.md)
 * [Building/Releasing](building.md)
 * [License](license.md)
