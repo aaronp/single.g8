@@ -1,5 +1,5 @@
 package $package;format="lower,package"$
-package $name;format="lower,word"$
+package $name;format="norm"$
 
 
 object Main extends App {
