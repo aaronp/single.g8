@@ -39,7 +39,12 @@ siteSourceDirectory := target.value / "paradox" / "site" / "main"
 
 siteSubdirName in SiteScaladoc := "api/latest"
 
-libraryDependencies ++= List(
+val monix = List("monix", "monix-execution", "monix-eval", "monix-reactive", "monix-tail")
+
+val monixDependencies = monix.map { art =>
+  "io.monix" %% art % "3.0.0"
+}
+libraryDependencies ++= monixDependencies ++ List(
   "com.typesafe" % "config" % "1.3.4" % "provided"
 )
 
