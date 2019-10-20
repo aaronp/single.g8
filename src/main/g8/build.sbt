@@ -45,7 +45,8 @@ val monixDependencies = monix.map { art =>
   "io.monix" %% art % "3.0.0"
 }
 libraryDependencies ++= monixDependencies ++ List(
-  "com.typesafe" % "config" % "1.3.4" % "provided"
+  "com.typesafe" % "config" % "1.3.4",
+  "com.github.aaronp" %% "args4c" % "0.7.0"
 )
 
 libraryDependencies ++= List(
